@@ -1,4 +1,26 @@
-$('#boutton0').click(function(){
+$('.boutton').click(function(){
+        var boutton = $(this).val();
+        var result = $("#op").val();
+        var add = result + boutton ;
+        $("#op").val(boutton);
+        $("#op").val(result);
+        $("#op").val(add);
+console.log(add)
+        if(boutton == "=")
+        {
+         $('#op').html();       
+        } else {
+                add += boutton;
+        }
+
+
+
+});
+
+
+
+
+/* ('#boutton0').click(function(){
         console.log('0');
 });
 $('#boutton1').click(function(){
@@ -28,8 +50,6 @@ $('#boutton8').click(function(){
 $('#boutton9').click(function(){
         console.log('9');
 });
-$('#boutton10').click(function(){
-        console.log('+');
 });
 $('#boutton11').click(function(){
         console.log('-');
@@ -44,37 +64,6 @@ $('#boutton14').click(function(){
         console.log('=');
 });
 
-function add(a, b) {
-        return a + b;
-}
-function substract(a,b) {
-        return a - b;
-}
-function multiply(a,b) {
-        return a * b;
-}
-function divide(a,b) {
-        return a / b;
-}
-
-function calc()
-{
-        var operation =        
-
-        if(operation === 'add')
-        {
-                console.log(add(a,b));
-        }
-        else if(operation === 'substract')
-        {
-                console.log(substract(a,b));
-
-        }
-        else if(operation === 'divide')
-        {
-                console.log(divide(a,b));
-        }
-
-}
-
-calc();
+$('#result').text(function(){
+console.log();
+}) */ 
