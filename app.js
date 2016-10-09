@@ -1,5 +1,5 @@
 $('.boutton').click(function(){
-        var boutton = $(this).val();
+        var boutton = $(this).html();
         var result = $("#op").val();
         var add = result + boutton ;
         $("#op").val(boutton);
