@@ -4,18 +4,22 @@
         var add1 = resulta + boutton ;
         $("#op").val(add1);
     });
+
     $('.bouttonEgal').click(function(){
         egal();
     });
+
     function egal(){
         var valeur = $("#op").val();
         var resultatFinal = eval(valeur);
         $("#op").val(resultatFinal)
     }
+
     $('.reset').click(function(){
-        reset1();
+        resetCalc();
     });
-    function reset1(){
+    
+    function resetCalc(){
         $("#op").val("");
     }
 

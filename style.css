@@ -1,20 +1,21 @@
 .calculatrice
 {
         width:300px;
-        height:230px;
+        height:330px;
         background-color:#eeeeee;
         border:2px solid #CCCCCC;
         margin:auto;
         padding-left:5px;
         padding-bottom:5px;
 }
-.choix{
+.boutton{
+        font-size:16px;
         margin-left: 10px;
 }
 
-.calc_button1
+.calc1
 {
-        font-size:50px;
+        margin-left: 10px;
 }
 .calc_button2
 {
